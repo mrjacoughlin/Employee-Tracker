@@ -1,8 +1,9 @@
 const { prompt } = require("inquirer");
-const { INITIALLY_DEFERRED } = require("sequelize/types/lib/deferrable");
-const { values } = require("sequelize/types/lib/operators");
+
 const db = require("./db");
 require("console.trable");
+
+mainPrompts();
 
 function mainPrompts() {
   const { choice } = prompt([

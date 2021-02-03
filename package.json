@@ -19,7 +19,6 @@
   "homepage": "https://github.com/mrjacoughlin/Employee-Tracker#readme",
   "dependencies": {
     "inquirer": "^7.3.3",
-    "mysql": "^2.18.1",
-    "sequelize": "^6.5.0"
+    "mysql": "^2.18.1"
   }
 }
